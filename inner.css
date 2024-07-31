@@ -1,0 +1,51 @@
+header nav {
+  display: flex;
+  align-items: center;
+  padding: 1.3125rem 0 1rem 0;
+  margin: auto;
+  max-width: 76.5625vw;
+  position: sticky;
+  z-index: 99999;
+  top: 0;
+}
+header nav .logo-tag {
+  display: flex;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+header nav .logo {
+  width: 2.8125vw;
+}
+img {
+  max-width: 100%;
+}
+header nav ul {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  padding-left: 0;
+  flex: 1;
+  justify-content: end;
+  align-items: flex-end;
+}
+header nav ul .nav-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+  padding-right: 2rem;
+  height: 16px;
+  transition: height 0.5s cubic-bezier(0.96, -0.08, 0.22, 1.9);
+}
+header nav ul .nav-links a h6 {
+  color: #c3c3ca;
+  font-family: "degular", sans-serif;
+  font-size: 0.9375vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
